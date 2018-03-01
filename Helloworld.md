@@ -8,4 +8,5 @@
 
 运行后，在屏幕上的安卓虚拟机上显示Helloworld的信息。
 
+(https://github.com/reeseyuan/Android-Course/blob/master/image.png)
 
