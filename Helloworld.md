@@ -8,4 +8,7 @@
 
 运行后，在屏幕上的安卓虚拟机上显示Helloworld的信息。
 
-![Image Text](https://github.com/reeseyuan/Android-Course/blob/master/image.png)
+<div align=center>
+  <img width="300" height="600" src="https://github.com/reeseyuan/Android-Course/blob/master/image.png"/>
+</div>
+
