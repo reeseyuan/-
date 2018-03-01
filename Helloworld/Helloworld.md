@@ -9,7 +9,7 @@
 运行后，在屏幕上的安卓虚拟机上显示Helloworld的信息。
 
 <div align=center>
-  <img width="300" height="600" src="https://github.com/reeseyuan/Android-Course/blob/master/image.png"/>
+  <img width="300" height="600" src="https://github.com/reeseyuan/Android-Course/blob/master/Helloworld/image.png"/>
 </div>
 
 在一个android程序中，界面的相关布局程序写在activity_main.xml中，相关逻辑等代码写在MainActitivy.java中。
