@@ -78,10 +78,4 @@ onCreate()方法是一个活动在被创建时必定要执行的方法。
 
 </android.support.constraint.ConstraintLayout>
 
-
-
 代码中的TextView是android提供的一个控件，用于在布局中显示文字，因此在上图中的`Helloworld`就是通过`android:text="Hello World!"`这句代码定义的。
-
-
-
-
