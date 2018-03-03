@@ -17,15 +17,25 @@
 如下代码为MainActivity.java中的代码：
 
 >package com.example.reese.helloworld;
+
 >import android.support.v7.app.AppCompatActivity;
+
 >import android.os.Bundle;
+
 >
+
 >public class MainActivity extends AppCompatActivity {
+
 >    protected void onCreate(Bundle savedInstanceState) {
+
 >        super.onCreate(savedInstanceState);
+
 >        setContentView(R.layout.activity_main);
+
 >    }
+
 >}
+
 
 在代码中，MainActivity继承自AppCompatActivity，Activity是android系统提供的一个活动基类，项目中的所有活动都必须继承它或者是它的子类才能拥有活动的特性。
 
@@ -37,23 +47,41 @@ onCreate()方法是一个活动在被创建时必定要执行的方法。
 
 
 ><?xml version="1.0" encoding="utf-8"?>
+
 ><android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
 >    xmlns:app="http://schemas.android.com/apk/res-auto"
+
 >    xmlns:tools="http://schemas.android.com/tools"
+
 >    android:layout_width="match_parent"
+
 >    android:layout_height="match_parent"
+
 >    tools:context="com.example.reese.helloworld.MainActivity">
+
 >
+
 >    <TextView
+
 >        android:layout_width="wrap_content"
+
 >        android:layout_height="wrap_content"
+
 >        android:text="Hello World!"
+
 >        app:layout_constraintBottom_toBottomOf="parent"
+
 >        app:layout_constraintLeft_toLeftOf="parent"
+
 >        app:layout_constraintRight_toRightOf="parent"
+
 >        app:layout_constraintTop_toTopOf="parent" />
+
 >
+
 ></android.support.constraint.ConstraintLayout>
+
 
 
 代码中的TextView是android提供的一个控件，用于在布局中显示文字，因此在上图中的`Helloworld`就是通过`android:text="Hello World!"`这句代码定义的。
